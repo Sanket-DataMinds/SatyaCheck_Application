@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+        
+    <!-- Brain illustration -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M120,50 C85,50 60,80 60,110 C60,140 85,160 120,160 C155,160 180,140 180,110 C180,80 155,50 120,50z" />
+        
+    <!-- Brain details -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,70 C95,70 80,90 80,110 C80,130 95,140 120,140 C145,140 160,130 160,110 C160,90 145,70 120,70z" />
+        
+    <!-- Question mark -->
+    <path
+        android:fillColor="#000080"
+        android:pathData="M110,100 Q110,90 120,90 Q130,90 130,100 Q130,110 120,115 L120,125 M120,135 L120,145" 
+        android:strokeColor="#000080"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+</vector>

@@ -1,0 +1,7 @@
+# API keys and sensitive information
+gradle.properties
+app/src/main/assets/api_keys.properties
+.env
+
+# Server logs
+server_logs.txt

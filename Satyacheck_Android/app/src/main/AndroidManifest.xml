@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Internet permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- Camera permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    
+    <!-- Audio recording permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    
+    <!-- Notification permissions (for Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    
+    <!-- Location permissions (for community alerts in user's area) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    
+    <!-- Vibration for feedback -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- Storage access for caching -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+                     android:maxSdkVersion="28" />
+    
+    <application
+        android:name=".SatyaCheckApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_extreme_padding"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_extreme_padding"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SatyaCheck"
+        android:largeHeap="false"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:extractNativeLibs="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31"
+        tools:ignore="PhotoAndVideoPolicy">
+        
+        <activity
+            android:name=".presentation.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Accessibility Service for user-initiated content analysis only -->
+        <!-- This service is only enabled with explicit user consent and does not monitor content without user action -->
+        <service
+            android:name=".service.MisinformationAccessibilityService"
+            android:exported="false"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:label="@string/accessibility_service_label"
+            android:description="@string/accessibility_service_description"
+            android:enabled="true"
+            tools:ignore="AccessibilityPolicy">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+            <meta-data
+                android:name="com.satyacheck.ACCESSIBILITY_POLICY_COMPLIANCE"
+                android:resource="@xml/accessibility_policy_compliance" />
+        </service>
+        
+        <!-- Disable WorkManager automatic initialization to prevent crashes -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+            <meta-data
+                android:name="com.satyacheck.android.utils.AppStartupInitializer"
+                android:value="androidx.startup" />
+        </provider>
+        
+        <!-- Uses user consent before enabling this service -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+            
+        <!-- Media access core use case explanation -->
+        <meta-data
+            android:name="com.android.media.core_use_case"
+            android:value="Analyzing images and videos to detect misinformation is the primary core functionality of SatyaCheck" />
+            
+        <!-- Permission rationale -->
+        <meta-data
+            android:name="com.android.content.photo.video.rationale"
+            android:value="SatyaCheck needs access to photos and videos to analyze them for potential misinformation and manipulation" />
+            
+        <!-- Core functionality documentation -->
+        <meta-data
+            android:name="com.satyacheck.MEDIA_CORE_FUNCTIONALITY"
+            android:resource="@xml/media_access_justification" />
+            
+        <!-- Media access is essential for the app -->
+        <meta-data
+            android:name="com.satyacheck.PHOTO_VIDEO_IS_PRIMARY_FUNCTION"
+            android:value="true" />
+        
+    </application>
+
+</manifest>

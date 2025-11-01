@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Much larger padding to ensure complete shield visibility: 35dp (33% padding) -->
+    <item android:left="35dp"
+          android:right="35dp" 
+          android:top="35dp"
+          android:bottom="35dp">
+        <bitmap android:src="@drawable/ic_shield_foreground"
+                android:gravity="center"
+                android:filter="true"
+                android:antialias="true" />
+    </item>
+</layer-list>

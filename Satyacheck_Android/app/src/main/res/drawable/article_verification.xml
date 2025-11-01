@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+    
+    <!-- Magnifying glass -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="6"
+        android:pathData="M100,100 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" />
+    
+    <!-- Handle -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M130,130L170,170" 
+        android:strokeColor="#444444"
+        android:strokeWidth="10"
+        android:strokeLineCap="round" />
+    
+    <!-- Checkmark inside -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M85,100L95,110L115,90" 
+        android:strokeColor="#138808"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">सत्यचेक</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">सत्यचेक एक्सेसिबिलिटी सर्विस आपकी स्क्रीन पर दिखाए गए टेक्स्ट से संभावित गलत जानकारी का पता लगाती और विश्लेषण करती है।</string>
+    
+    <!-- Common -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="submit">जमा करें</string>
+    <string name="save">सहेजें</string>
+    <string name="share">साझा करें</string>
+    <string name="back">वापस</string>
+    <string name="next">अगला</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">सत्यचेक में आपका स्वागत है</string>
+    <string name="onboarding_welcome_subtitle">गलत जानकारी के खिलाफ आपकी ढाल</string>
+    <string name="onboarding_get_started">शुरू करें</string>
+    <string name="onboarding_language_title">भाषा चुनें</string>
+    <string name="onboarding_language_subtitle">ऐप इंटरफेस और विश्लेषण परिणामों के लिए अपनी पसंदीदा भाषा चुनें</string>
+    <string name="onboarding_permissions_title">आवश्यक अनुमतियां</string>
+    <string name="onboarding_permissions_intro">आपको सर्वोत्तम अनुभव प्रदान करने के लिए, सत्यचेक को इनकी आवश्यकता है:</string>
+    <string name="onboarding_location_permission">स्थान: आपके क्षेत्र में गलत जानकारी के बारे में स्थान-विशिष्ट अलर्ट प्रदान करने के लिए</string>
+    <string name="onboarding_privacy_priority">आपकी गोपनीयता हमारी प्राथमिकता है। हम आपका डेटा कभी भी तीसरे पक्ष के साथ साझा नहीं करते हैं।</string>
+    
+    <!-- Analysis -->
+    <string name="analyze_title">सामग्री का विश्लेषण करें</string>
+    <string name="analyze_text_placeholder">विश्लेषण के लिए टेक्स्ट दर्ज करें या लिंक पेस्ट करें</string>
+    <string name="analyze_camera_button">कैमरा</string>
+    <string name="analyze_audio_button">ऑडियो</string>
+    <string name="analyze_accessibility_toggle">एक्सेसिबिलिटी सर्विस</string>
+    <string name="analyze_submit_button">विश्लेषण करें</string>
+    
+    <!-- Verdicts -->
+    <string name="verdicts_credible">विश्वसनीय</string>
+    <string name="verdicts_potentially_misleading">संभावित रूप से भ्रामक</string>
+    <string name="verdicts_high_misinformation_risk">उच्च गलत जानकारी जोखिम</string>
+    <string name="verdicts_scam_alert">धोखाधड़ी अलर्ट</string>
+    
+    <!-- Analysis Results -->
+    <string name="analysis_result_title">विश्लेषण परिणाम</string>
+    <string name="analysis_original_content">मूल सामग्री</string>
+    <string name="analysis_explanation">व्याख्या</string>
+    <string name="analysis_guidance_yes">अपने बैंक से उनके आधिकारिक फोन नंबर (संदेश से नहीं) पर सीधे संपर्क करें। कभी भी अपना OTP या पासवर्ड किसी के साथ साझा न करें।</string>
+    <string name="analysis_guidance_no">कोई भी कार्रवाई करने से पहले आधिकारिक चैनलों के माध्यम से किसी भी तत्काल वित्तीय संदेशों को सत्यापित करना अभी भी एक अच्छा अभ्यास है।</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">डैशबोर्ड</string>
+    <string name="dashboard_analyses_count">कुल विश्लेषण</string>
+    <string name="dashboard_misinformation_detected">गलत जानकारी का पता चला</string>
+    <string name="dashboard_recent_activity">हाल की गतिविधि</string>
+    
+    <!-- Navigation -->
+    <string name="nav_analyze">विश्लेषण</string>
+    <string name="nav_dashboard">डैशबोर्ड</string>
+    <string name="nav_community">समुदाय</string>
+    <string name="nav_educate">शिक्षित करें</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    
+    <!-- Errors -->
+    <string name="error_analysis_failed">विश्लेषण विफल हुआ</string>
+    <string name="error_try_again">कुछ गलत हो गया। कृपया पुनः प्रयास करें।</string>
+    <string name="error_camera_unavailable">कैमरा उपलब्ध नहीं है</string>
+    <string name="error_audio_unavailable">ऑडियो रिकॉर्डिंग उपलब्ध नहीं है</string>
+    <!-- Language Settings -->
+    <string name="language_settings_title">भाषा सेटिंग्स</string>
+    <string name="language_settings_subtitle">अपनी पसंदीदा भाषा चुनें</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_marathi">मराठी</string>
+    <string name="language_change_restart">भाषा बदलने के बाद ऐप पुनरारंभ हो सकता है</string>
+    <string name="language_change_success">भाषा सफलतापूर्वक बदल दी गई है</string>
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">सत्यचेक</string>
+    
+     <!-- Language Settings -->
+    <string name="language_settings_title">भाषा सेटिंग्ज</string>
+    <string name="language_settings_subtitle">आपली पसंतीची भाषा निवडा</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_marathi">मराठी</string>
+    <string name="language_change_restart">भाषा बदलल्यानंतर अॅप रीस्टार्ट होऊ शकतो</string>
+    <string name="language_change_success">भाषा यशस्वीरित्या बदलली गेली आहे</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">सत्यचेक अ‍ॅक्सेसिबिलिटी सेवा तुमच्या स्क्रीनवर दिसणाऱ्या मजकुरातून संभाव्य चुकीची माहिती शोधते आणि विश्लेषण करते.</string>
+    
+    <!-- Common -->
+    <string name="ok">ठीक आहे</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="submit">सबमिट करा</string>
+    <string name="save">जतन करा</string>
+    <string name="share">शेअर करा</string>
+    <string name="back">मागे</string>
+    <string name="next">पुढे</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">सत्यचेकमध्ये आपले स्वागत आहे</string>
+    <string name="onboarding_welcome_subtitle">चुकीच्या माहितीविरुद्ध आपले कवच</string>
+    <string name="onboarding_get_started">सुरू करा</string>
+    <string name="onboarding_language_title">भाषा निवडा</string>
+    <string name="onboarding_language_subtitle">अ‍ॅप इंटरफेस आणि विश्लेषण परिणामांसाठी आपली पसंतीची भाषा निवडा</string>
+    <string name="onboarding_permissions_title">आवश्यक परवानग्या</string>
+    <string name="onboarding_permissions_intro">आपल्याला सर्वोत्तम अनुभव देण्यासाठी, सत्यचेकला याची आवश्यकता आहे:</string>
+    <string name="onboarding_location_permission">स्थान: आपल्या क्षेत्रातील चुकीच्या माहितीबद्दल स्थान-विशिष्ट अलर्ट प्रदान करण्यासाठी</string>
+    <string name="onboarding_privacy_priority">आपली गोपनीयता आमची प्राथमिकता आहे. आम्ही कधीही आपला डेटा तृतीय पक्षांसह शेअर करत नाही.</string>
+    
+    <!-- Analysis -->
+    <string name="analyze_title">सामग्री विश्लेषण करा</string>
+    <string name="analyze_text_placeholder">विश्लेषण करण्यासाठी मजकूर टाका किंवा लिंक पेस्ट करा</string>
+    <string name="analyze_camera_button">कॅमेरा</string>
+    <string name="analyze_audio_button">ऑडिओ</string>
+    <string name="analyze_accessibility_toggle">अ‍ॅक्सेसिबिलिटी सेवा</string>
+    <string name="analyze_submit_button">विश्लेषण करा</string>
+    
+    <!-- Verdicts -->
+    <string name="verdicts_credible">विश्वसनीय</string>
+    <string name="verdicts_potentially_misleading">संभाव्य दिशाभूल करणारे</string>
+    <string name="verdicts_high_misinformation_risk">चुकीच्या माहितीचा उच्च धोका</string>
+    <string name="verdicts_scam_alert">फसवणूक अलर्ट</string>
+    
+    <!-- Analysis Results -->
+    <string name="analysis_result_title">विश्लेषण परिणाम</string>
+    <string name="analysis_original_content">मूळ सामग्री</string>
+    <string name="analysis_explanation">स्पष्टीकरण</string>
+    <string name="analysis_guidance_yes">आपल्या बँकेशी त्यांच्या अधिकृत फोन नंबरवर (संदेशातून नाही) थेट संपर्क साधा. कधीही आपला OTP किंवा पासवर्ड कोणाशीही शेअर करू नका.</string>
+    <string name="analysis_guidance_no">कोणतीही कृती करण्यापूर्वी अधिकृत चॅनेलद्वारे कोणत्याही तातडीच्या आर्थिक संदेशांची पडताळणी करणे हा अजूनही एक चांगला सराव आहे.</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">डॅशबोर्ड</string>
+    <string name="dashboard_analyses_count">एकूण विश्लेषणे</string>
+    <string name="dashboard_misinformation_detected">चुकीची माहिती आढळली</string>
+    <string name="dashboard_recent_activity">अलीकडील क्रियाकलाप</string>
+    
+    <!-- Navigation -->
+    <string name="nav_analyze">विश्लेषण</string>
+    <string name="nav_dashboard">डॅशबोर्ड</string>
+    <string name="nav_community">समुदाय</string>
+    <string name="nav_educate">शिक्षित करा</string>
+    <string name="nav_settings">सेटिंग्ज</string>
+    
+    <!-- Errors -->
+    <string name="error_analysis_failed">विश्लेषण अयशस्वी</string>
+    <string name="error_try_again">काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="error_camera_unavailable">कॅमेरा उपलब्ध नाही</string>
+    <string name="error_audio_unavailable">ऑडिओ रेकॉर्डिंग उपलब्ध नाही</string>
+    <string name="error_unsupported_file">असमर्थित फाइल प्रकार</string>
+    <string name="error_please_upload_image_audio">कृपया एक प्रतिमा किंवा ऑडिओ फाइल अपलोड करा</string>
+</resources>

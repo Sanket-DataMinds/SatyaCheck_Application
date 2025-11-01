@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+    
+    <!-- Notification outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="4"
+        android:pathData="M60,50L180,50L180,130L60,130z" />
+    
+    <!-- Notification header -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M60,50L180,50L180,70L60,70z" />
+    
+    <!-- App icon circle -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M75,60m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    
+    <!-- Notification title -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M90,60L170,60" 
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2" />
+    
+    <!-- Notification content -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M70,85L170,85" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M70,95L170,95" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M70,105L150,105" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <!-- Notification buttons -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1"
+        android:pathData="M130,115L175,115L175,125L130,125z" />
+    
+    <path
+        android:fillColor="#DDDDDD"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1"
+        android:pathData="M70,115L125,115L125,125L70,125z" />
+    
+    <!-- Circle/cross indicator -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M195,60m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M187,52L203,68" 
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M203,52L187,68" 
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3" />
+</vector>

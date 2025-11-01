@@ -1,0 +1,18 @@
+<!-- 
+    This file documents why SatyaCheck requires access to photos and videos.
+    The analysis of media for misinformation detection is a core use case of this app.
+-->
+<core-functionality>
+    <primary-use-case>
+        <description>Analyzing photos and videos to detect manipulated media and misinformation</description>
+        <justification>
+            SatyaCheck's primary purpose is to help users identify potential misinformation in digital content, 
+            which inherently requires analyzing photos and videos shared by users. This application specifically 
+            needs to examine media files to detect signs of manipulation, doctoring, or misleading context.
+        </justification>
+        <frequency>
+            Regular access to user-selected media is required for the app's core misinformation detection functionality.
+            The app analyzes images and videos on-demand when users submit them for verification.
+        </frequency>
+    </primary-use-case>
+</core-functionality>

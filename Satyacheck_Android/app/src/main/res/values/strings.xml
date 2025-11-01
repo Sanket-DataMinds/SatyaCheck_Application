@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SatyaCheck</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">SatyaCheck Misinformation Analyzer</string>
+    <string name="accessibility_service_description">SatyaCheck will analyze text content on your screen ONLY when you specifically request analysis by tapping the analysis button. We NEVER monitor your screen without your explicit request, and we NEVER collect, store, or transmit your screen content.</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="retry">Retry</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to SatyaCheck</string>
+    <string name="onboarding_welcome_subtitle">Your shield against misinformation</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <!-- Permission Reasons -->
+    <string name="storage_permission_reason_title">Photo Access for Misinformation Detection</string>
+    <string name="storage_permission_reason_description">SatyaCheck needs access to photos to analyze them for potential misinformation.</string>
+    <string name="accessibility_permission_reason_title">Text Analysis for Misinformation Detection</string>
+    <string name="accessibility_permission_reason_description">SatyaCheck\'s accessibility service analyzes text on your screen to help identify potential misinformation.</string>
+    <string name="onboarding_language_title">Choose Language</string>
+    <string name="onboarding_language_subtitle">Select your preferred language for the app interface and analysis results</string>
+    <string name="onboarding_permissions_title">Required Permissions</string>
+    <string name="onboarding_permissions_intro">To provide you with the best experience, SatyaCheck needs access to:</string>
+    <string name="onboarding_location_permission">Location: To provide location-specific alerts about misinformation in your area</string>
+    <string name="onboarding_privacy_priority">Your privacy is our priority. We never share your data with third parties.</string>
+    
+    <!-- Analysis -->
+    <string name="analyze_title">Analyze Content</string>
+    <string name="analyze_text_placeholder">Enter text to analyze or paste a link</string>
+    <string name="analyze_camera_button">Camera</string>
+    <string name="analyze_audio_button">Audio</string>
+    <string name="analyze_accessibility_toggle">Accessibility Service</string>
+    <string name="analyze_submit_button">Analyze</string>
+    <string name="analyze_instruction">Analyze content for misinformation by entering text, taking a photo, or using voice</string>
+    
+    <!-- Verdicts -->
+    <string name="verdicts_credible">Credible</string>
+    <string name="verdicts_potentially_misleading">Potentially Misleading</string>
+    <string name="verdicts_high_misinformation_risk">High Misinformation Risk</string>
+    <string name="verdicts_scam_alert">Scam Alert</string>
+    
+    <!-- Analysis Results -->
+    <string name="analysis_result_title">Analysis Result</string>
+    <string name="analysis_original_content">Original Content</string>
+    <string name="analysis_explanation">Explanation</string>
+    <string name="analysis_guidance_yes">Contact your bank directly using their official phone number (not from the message).</string>
+    <string name="analysis_guidance_no">It\'s still a good practice to verify any urgent financial messages through official channels before taking action.</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_analyses_count">Total Analyses</string>
+    <string name="dashboard_misinformation_detected">Misinformation Detected</string>
+    <string name="dashboard_recent_activity">Recent Activity</string>
+    
+    <!-- Navigation -->
+    <string name="nav_analyze">Analyze</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_educate">Educate</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_alerts">Alerts</string>
+    
+    <!-- Errors -->
+    <string name="error_analysis_failed">Analysis failed</string>
+    <string name="error_try_again">Something went wrong. Please try again.</string>
+    <string name="error_camera_unavailable">Camera is unavailable</string>
+    <string name="error_audio_unavailable">Audio recording is unavailable</string>
+    <string name="error_unsupported_file">Unsupported file type</string>
+    <string name="error_please_upload_image_audio">Please upload an image or audio file</string>
+    
+    <!-- Language Settings -->
+    <string name="language_settings_title">Language Settings</string>
+    <string name="language_settings_subtitle">Choose your preferred language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_marathi">मराठी</string>
+    <string name="language_change_restart">The app may restart after changing language</string>
+    <string name="language_change_success">Language changed successfully</string>
+    <string name="change_language_title">Change Language</string>
+    <string name="change_language_message">App will restart to apply the new language</string>
+    <string name="language_changed">Language changed</string>
+    <string name="confirm">Confirm</string>
+    
+    <!-- Authentication -->
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_sign_up">Sign Up</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_name">Full Name</string>
+    <string name="auth_confirm_password">Confirm Password</string>
+    <string name="auth_continue_as_guest">Continue as Guest</string>
+    <string name="auth_continue_with_google">Continue with Google</string>
+    <string name="auth_already_have_account">Already have an account? Sign In</string>
+    <string name="auth_dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="auth_welcome_back">Welcome Back</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_sign_in_subtitle">Sign in to continue using SatyaCheck</string>
+    <string name="auth_sign_up_subtitle">Join SatyaCheck to combat misinformation</string>
+    <string name="auth_passwords_dont_match">Passwords don\'t match</string>
+    <string name="auth_error_sign_in">Sign in failed</string>
+    <string name="auth_error_sign_up">Sign up failed</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent background to prevent ring artifacts -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <!-- Shield with extreme padding to prevent any cropping -->
+    <item android:left="60dp"
+          android:right="60dp" 
+          android:top="60dp"
+          android:bottom="60dp">
+        <bitmap android:src="@drawable/ic_shield_foreground"
+                android:gravity="center"
+                android:filter="true"
+                android:antialias="true" />
+    </item>
+</layer-list>

@@ -1,0 +1,35 @@
+<!-- 
+    This file documents SatyaCheck's accessibility service compliance with Google Play policies.
+    The accessibility service is used ONLY for user-initiated text analysis and never for monitoring.
+-->
+<accessibility-service-policy-compliance>
+    <purpose>
+        <description>
+            SatyaCheck's accessibility service is used solely to provide user-requested analysis of 
+            on-screen text to detect potential misinformation. The service is never used to monitor 
+            user behavior, bypass system security, or access sensitive information.
+        </description>
+        <user-controls>
+            <control>Service is only enabled with explicit user consent through Settings</control>
+            <control>Analysis only occurs when user explicitly presses the "Analyze" button</control>
+            <control>Service can be disabled by user at any time</control>
+            <control>Clear in-app explanations of what the service does and doesn't do</control>
+        </user-controls>
+    </purpose>
+    
+    <privacy-protection>
+        <practice>No content is stored or transmitted without explicit user consent</practice>
+        <practice>Analysis occurs on-device whenever possible</practice>
+        <practice>Only the specific content the user selects is analyzed</practice>
+        <practice>No monitoring of user behavior or screen content</practice>
+        <practice>No collection of passwords, personal data, or sensitive information</practice>
+    </privacy-protection>
+    
+    <policy-alignment>
+        <commitment>Service never bypasses security features</commitment>
+        <commitment>Service never automates user interactions without consent</commitment>
+        <commitment>Service never accesses content from other apps without user action</commitment>
+        <commitment>Service never collects data in the background</commitment>
+        <commitment>Service is never used for unauthorized data collection</commitment>
+    </policy-alignment>
+</accessibility-service-policy-compliance>

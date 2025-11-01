@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    This accessibility service is ONLY activated when the user explicitly requests text analysis.
+    It is NOT used for monitoring or tracking user behavior, and does NOT collect any data.
+    The service requires explicit user activation for each analysis and is disabled by default.
+    SatyaCheck is committed to user privacy and fully adheres to Google's Accessibility API policies.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowContentChanged|typeWindowStateChanged|typeViewScrolled"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="500"
+    android:canRequestFilterKeyEvents="false"
+    android:canPerformGestures="false"
+    android:canRequestTouchExplorationMode="false"
+    android:settingsActivity="com.satyacheck.android.presentation.screens.settings.AccessibilitySettingsActivity" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#77B5FE</color>
+    <color name="primary_dark">#5592D1</color>
+    <color name="primary_light">#A7D2FF</color>
+    <color name="accent">#FFB347</color>
+    <color name="accent_dark">#E89A30</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    
+    <!-- Verdict colors -->
+    <color name="verdict_credible">#4CAF50</color>
+    <color name="verdict_potentially_misleading">#FFC107</color>
+    <color name="verdict_high_misinformation_risk">#F44336</color>
+    <color name="verdict_scam_alert">#2196F3</color>
+    
+    <!-- Verdict background colors -->
+    <color name="verdict_credible_background">#E8F5E9</color>
+    <color name="verdict_potentially_misleading_background">#FFF8E1</color>
+    <color name="verdict_high_misinformation_risk_background">#FFEBEE</color>
+    <color name="verdict_scam_alert_background">#E3F2FD</color>
+    
+    <!-- System colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

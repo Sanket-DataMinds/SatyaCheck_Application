@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: satyacheck-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=satyacheck
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - satyacheck-network
+
+  simple-api:
+    image: eclipse-temurin:17-jdk-alpine
+    container_name: satyacheck-simple-api
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    volumes:
+      - ./SimpleApiApplication.java:/app/SimpleApiApplication.java
+      - ./simple-api-app.sh:/app/simple-api-app.sh
+    command: sh /app/simple-api-app.sh
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/satyacheck
+    networks:
+      - satyacheck-network
+
+networks:
+  satyacheck-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:

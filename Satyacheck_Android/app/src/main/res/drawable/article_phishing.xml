@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+    
+    <!-- Phone outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="4"
+        android:pathData="M90,30L150,30L150,150L90,150z" />
+    
+    <!-- Phone screen -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M95,40L145,40L145,130L95,130z" />
+    
+    <!-- Message bubble 1 -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M100,55L140,55L140,75L125,75L120,85L115,75L100,75z" />
+    
+    <!-- Message bubble 2 -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M100,95L140,95L140,115L125,115L120,125L115,115L100,115z" />
+    
+    <!-- Warning icon -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M120,20m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,14L122,22L118,22z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,26m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+    <!-- Home button -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M120,140m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

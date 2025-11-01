@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shield base with dark grey outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="2"
+        android:pathData="M54,20L20,30v28c0,23 15,39 34,50c19,-11 34,-27 34,-50V30L54,20z" />
+        
+    <!-- Saffron/Orange top portion of the shield -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M54,21L21,30.8v27.2h66V30.8L54,21z" />
+        
+    <!-- White middle portion for the band -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,58v-10h66v10z" />
+        
+    <!-- Green bottom portion of the shield -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M21,58h66c0,22 -14.5,37.5 -33,48c-18.5,-10.5 -33,-26 -33,-48z" />
+        
+    <!-- Navy blue checkmark in the center white band -->
+    <path
+        android:fillColor="#000080"
+        android:pathData="M44,54l8,8l20,-20l-4,-4l-16,16l-4,-4z" />
+</vector>

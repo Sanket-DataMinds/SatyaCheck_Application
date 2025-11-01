@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+    
+    <!-- Smartphone with fake news -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="4"
+        android:pathData="M85,30L155,30L155,150L85,150z" />
+    
+    <!-- Screen -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M90,40L150,40L150,130L90,130z" />
+    
+    <!-- Newspaper headline box -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="2"
+        android:pathData="M95,50L145,50L145,70L95,70z" />
+    
+    <!-- Red headline text lines -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M100,55L140,55" 
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2" />
+    
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M100,60L130,60" 
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2" />
+    
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M100,65L120,65" 
+        android:strokeColor="#FF0000"
+        android:strokeWidth="2" />
+    
+    <!-- Text content lines -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,80L145,80" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,85L145,85" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,90L145,90" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,95L145,95" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,100L145,100" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,105L130,105" 
+        android:strokeColor="#333333"
+        android:strokeWidth="1.5" />
+    
+    <!-- Fact check overlay -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M100,120L140,120L140,125L100,125z" />
+    
+    <!-- Home button -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M120,140m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    
+    <!-- Warning symbol -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M180,50m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,40L184,60L176,60z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,65m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>

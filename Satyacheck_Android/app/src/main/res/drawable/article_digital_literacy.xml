@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="180dp"
+    android:viewportWidth="240"
+    android:viewportHeight="180">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M0,0h240v180h-240z" />
+    
+    <!-- Computer screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#444444"
+        android:strokeWidth="4"
+        android:pathData="M60,40L180,40L180,120L60,120z" />
+    
+    <!-- Screen stand -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M105,120L135,120L135,140L105,140z" />
+    
+    <!-- Screen base -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M90,140L150,140L150,145L90,145z" />
+    
+    <!-- Digital binary/code representation -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M75,60L165,60" 
+        android:strokeColor="#138808"
+        android:strokeWidth="3" />
+    
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M75,75L135,75" 
+        android:strokeColor="#FF9933"
+        android:strokeWidth="3" />
+    
+    <path
+        android:fillColor="#138808"
+        android:pathData="M75,90L155,90" 
+        android:strokeColor="#138808"
+        android:strokeWidth="3" />
+    
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M75,105L125,105" 
+        android:strokeColor="#FF9933"
+        android:strokeWidth="3" />
+</vector>
