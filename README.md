@@ -181,12 +181,6 @@ We welcome contributions to improve SatyaCheck! Please read our contributing gui
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👥 Team
 
 **Developed by:** Team Fight Club  
