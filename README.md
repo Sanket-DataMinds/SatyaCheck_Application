@@ -189,7 +189,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-**Developed by:** Sanket-DataMinds  
+**Developed by:** Team Fight Club  
 **Project Type:** Hackathon Submission  
 **Theme:** Digital Literacy & Misinformation Combat  
 
