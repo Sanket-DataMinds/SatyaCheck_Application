@@ -215,7 +215,7 @@ We welcome contributions to improve SatyaCheck! Please read our contributing gui
 For questions, issues, or contributions:
 - 🐛 **Bug Reports:** Open an issue on GitHub
 - 💡 **Feature Requests:** Create a feature request
-- 📧 **Contact:** [Your Email]
+- 📧 **Contact:** fightclub@gmail.com
 - 📱 **Demo:** Install the production APK from releases
 
 ---
